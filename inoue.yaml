@@ -1,0 +1,13 @@
+target: POST http://localhost:3000/
+clients: 50
+requests: 1000
+headers:
+  - key: "bar"
+    value: "foo"
+  - key: "Content-Type"
+    value: "application/json"
+
+body: "{\"firstName\": \"Terry\",
+        \"lastName\": \"Medhurst\",
+        \"maidenName\": \"Smitham\",
+        \"age\": 50}"
